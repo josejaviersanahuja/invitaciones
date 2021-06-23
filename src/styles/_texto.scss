@@ -1,4 +1,6 @@
-
+/* ----------------
+componente TEXTO
+---------------*/
 .parrafo {
     display:grid;
     min-width: 300px;
@@ -18,7 +20,7 @@
     }
   }
    
-  @for $var from 1 to 18 {
+  @for $var from 1 to 19 {
       @if ($var%2 == 0) {
     .parrafo:nth-child(#{$var}) {
         bottom: 0px;

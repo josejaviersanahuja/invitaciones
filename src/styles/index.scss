@@ -1,7 +1,8 @@
 @import './variables';
-@import './botones';
 @import './texto';
-
+/* --------------------
+main y audio player
+----------------------*/
 main {
     display:flex;
     flex-direction: column;
