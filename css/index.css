@@ -352,7 +352,7 @@ Inicializacion
   
   .parrafo:nth-child(19) {
     bottom: 0;
-    left: 0;
+    left: 1.5rem;
     font-size: 0.9rem;
     -webkit-animation: aparicion 5s linear;
             animation: aparicion 5s linear;
@@ -369,7 +369,7 @@ Inicializacion
   
   .parrafo:nth-child(20) {
     top: 0;
-    left: 0;
+    left: 1.5rem;
     -webkit-animation: aparicion 5s linear;
             animation: aparicion 5s linear;
     -webkit-animation-fill-mode: forwards;
@@ -388,7 +388,7 @@ Inicializacion
     visibility: hidden;
     position: absolute;
     top: 50%;
-    right: 0;
+    right: 1.5rem;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
     -webkit-animation: aparicion 5s linear;
