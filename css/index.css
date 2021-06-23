@@ -222,7 +222,7 @@ Inicializacion
             animation-delay: 64s;
   }
   
-  .parrafo:nth-child(16) {
+  .parrafo:nth-child(18) {
     bottom: 0px;
     left: 0;
     -webkit-animation: animacionP1 4s linear;
