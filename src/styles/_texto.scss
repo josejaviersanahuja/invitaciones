@@ -1,0 +1,120 @@
+
+.parrafo {
+    display:grid;
+    min-width: 300px;
+    min-height:142px;
+    background-image: url('../../src/imagenes/maquetaboard1.png');
+    background-size:cover;
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-size: 1rem;
+    border-radius: 10px;
+    visibility: hidden;
+    &__content {
+        justify-self: center;
+        align-self: center;
+        padding:2em;
+    }
+  }
+   
+  @for $var from 1 to 18 {
+      @if ($var%2 == 0) {
+    .parrafo:nth-child(#{$var}) {
+        bottom: 0px;
+        left:0;
+        animation: animacionP1 4s linear;
+        animation-fill-mode: forwards;
+        animation-delay: ($var*4s)-4s;
+    }
+} @else {
+    .parrafo:nth-child(#{$var}) {
+    top: 0;
+    right:0;
+    animation: animacionP2 4s linear;
+    animation-fill-mode: forwards;
+    animation-delay: ($var*4s)-4s;
+    }
+}
+}
+  @keyframes animacionP1 {
+    0% {
+      transform: rotate(0deg) scale(0);
+      visibility: visible;
+    }
+    30% {
+      transform: rotate(720deg) scale(1);
+    }
+    99% {
+      transform: rotate(720deg) scale(1);
+    }
+    100% {
+      visibility: hidden;
+    }
+  }
+  @keyframes animacionP2 {
+    0% {
+      visibility: visible;
+      transform: scale(0);
+    }
+    15% {
+      transform: scale(0.25);
+    }
+    30% {
+      transform: scale(0.5);
+    }
+    45% {
+      transform: scale(1);
+    }
+    60% {
+      transform: scale(1);
+    }
+    100% {
+        transform: scale(1);
+        visibility: hidden;
+      }
+  }
+
+  @keyframes aparicion {
+      0% {
+          visibility: visible;
+          opacity: 0;
+      }
+      100% {
+          visibility: visible;
+          opacity: 1;
+      }
+  }
+
+  .parrafo:nth-child(19) {
+    bottom: 0;
+    left:0;
+    font-size:0.9rem;
+    animation: aparicion 5s linear;
+    animation-fill-mode: forwards;
+    animation-delay: 72s;
+    & .parrafo__content {
+        transform: translateY(10px);
+    }
+  }
+  .parrafo:nth-child(20) {
+    top: 0;
+    left:0;
+    & .parrafo__content {
+        transform: translateY(10px);
+    }
+    animation: aparicion 5s linear;
+    animation-fill-mode: forwards;
+    animation-delay: 72s;
+  }
+  .p img {
+    z-index: 1;
+    visibility: hidden;
+    position: absolute;
+    top:50%;
+    right: 0;
+    transform: translateY(-50%);
+    animation: aparicion 5s linear;
+    animation-fill-mode: forwards;
+    animation-delay: 72s;
+  }

@@ -133,6 +133,384 @@
   }
 }
 
+.parrafo {
+  display: -ms-grid;
+  display: grid;
+  min-width: 300px;
+  min-height: 142px;
+  background-image: url("../../src/imagenes/maquetaboard1.png");
+  background-size: cover;
+  position: absolute;
+  z-index: 1;
+  color: white;
+  font-size: 1rem;
+  border-radius: 10px;
+  visibility: hidden;
+}
+
+.parrafo__content {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 2em;
+}
+
+.parrafo:nth-child(1) {
+  top: 0;
+  right: 0;
+  -webkit-animation: animacionP2 4s linear;
+          animation: animacionP2 4s linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+.parrafo:nth-child(2) {
+  bottom: 0px;
+  left: 0;
+  -webkit-animation: animacionP1 4s linear;
+          animation: animacionP1 4s linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+.parrafo:nth-child(3) {
+  top: 0;
+  right: 0;
+  -webkit-animation: animacionP2 4s linear;
+          animation: animacionP2 4s linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+}
+
+.parrafo:nth-child(4) {
+  bottom: 0px;
+  left: 0;
+  -webkit-animation: animacionP1 4s linear;
+          animation: animacionP1 4s linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 12s;
+          animation-delay: 12s;
+}
+
+.parrafo:nth-child(5) {
+  top: 0;
+  right: 0;
+  -webkit-animation: animacionP2 4s linear;
+          animation: animacionP2 4s linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 16s;
+          animation-delay: 16s;
+}
+
+.parrafo:nth-child(6) {
+  bottom: 0px;
+  left: 0;
+  -webkit-animation: animacionP1 4s linear;
+          animation: animacionP1 4s linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 20s;
+          animation-delay: 20s;
+}
+
+.parrafo:nth-child(7) {
+  top: 0;
+  right: 0;
+  -webkit-animation: animacionP2 4s linear;
+          animation: animacionP2 4s linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 24s;
+          animation-delay: 24s;
+}
+
+.parrafo:nth-child(8) {
+  bottom: 0px;
+  left: 0;
+  -webkit-animation: animacionP1 4s linear;
+          animation: animacionP1 4s linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 28s;
+          animation-delay: 28s;
+}
+
+.parrafo:nth-child(9) {
+  top: 0;
+  right: 0;
+  -webkit-animation: animacionP2 4s linear;
+          animation: animacionP2 4s linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 32s;
+          animation-delay: 32s;
+}
+
+.parrafo:nth-child(10) {
+  bottom: 0px;
+  left: 0;
+  -webkit-animation: animacionP1 4s linear;
+          animation: animacionP1 4s linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 36s;
+          animation-delay: 36s;
+}
+
+.parrafo:nth-child(11) {
+  top: 0;
+  right: 0;
+  -webkit-animation: animacionP2 4s linear;
+          animation: animacionP2 4s linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 40s;
+          animation-delay: 40s;
+}
+
+.parrafo:nth-child(12) {
+  bottom: 0px;
+  left: 0;
+  -webkit-animation: animacionP1 4s linear;
+          animation: animacionP1 4s linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 44s;
+          animation-delay: 44s;
+}
+
+.parrafo:nth-child(13) {
+  top: 0;
+  right: 0;
+  -webkit-animation: animacionP2 4s linear;
+          animation: animacionP2 4s linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 48s;
+          animation-delay: 48s;
+}
+
+.parrafo:nth-child(14) {
+  bottom: 0px;
+  left: 0;
+  -webkit-animation: animacionP1 4s linear;
+          animation: animacionP1 4s linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 52s;
+          animation-delay: 52s;
+}
+
+.parrafo:nth-child(15) {
+  top: 0;
+  right: 0;
+  -webkit-animation: animacionP2 4s linear;
+          animation: animacionP2 4s linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 56s;
+          animation-delay: 56s;
+}
+
+.parrafo:nth-child(16) {
+  bottom: 0px;
+  left: 0;
+  -webkit-animation: animacionP1 4s linear;
+          animation: animacionP1 4s linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 60s;
+          animation-delay: 60s;
+}
+
+.parrafo:nth-child(17) {
+  top: 0;
+  right: 0;
+  -webkit-animation: animacionP2 4s linear;
+          animation: animacionP2 4s linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 64s;
+          animation-delay: 64s;
+}
+
+@-webkit-keyframes animacionP1 {
+  0% {
+    -webkit-transform: rotate(0deg) scale(0);
+            transform: rotate(0deg) scale(0);
+    visibility: visible;
+  }
+  30% {
+    -webkit-transform: rotate(720deg) scale(1);
+            transform: rotate(720deg) scale(1);
+  }
+  99% {
+    -webkit-transform: rotate(720deg) scale(1);
+            transform: rotate(720deg) scale(1);
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+
+@keyframes animacionP1 {
+  0% {
+    -webkit-transform: rotate(0deg) scale(0);
+            transform: rotate(0deg) scale(0);
+    visibility: visible;
+  }
+  30% {
+    -webkit-transform: rotate(720deg) scale(1);
+            transform: rotate(720deg) scale(1);
+  }
+  99% {
+    -webkit-transform: rotate(720deg) scale(1);
+            transform: rotate(720deg) scale(1);
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+
+@-webkit-keyframes animacionP2 {
+  0% {
+    visibility: visible;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  15% {
+    -webkit-transform: scale(0.25);
+            transform: scale(0.25);
+  }
+  30% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  60% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    visibility: hidden;
+  }
+}
+
+@keyframes animacionP2 {
+  0% {
+    visibility: visible;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  15% {
+    -webkit-transform: scale(0.25);
+            transform: scale(0.25);
+  }
+  30% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  60% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    visibility: hidden;
+  }
+}
+
+@-webkit-keyframes aparicion {
+  0% {
+    visibility: visible;
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+@keyframes aparicion {
+  0% {
+    visibility: visible;
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+.parrafo:nth-child(19) {
+  bottom: 0;
+  left: 0;
+  font-size: 0.9rem;
+  -webkit-animation: aparicion 5s linear;
+          animation: aparicion 5s linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 72s;
+          animation-delay: 72s;
+}
+
+.parrafo:nth-child(19) .parrafo__content {
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+}
+
+.parrafo:nth-child(20) {
+  top: 0;
+  left: 0;
+  -webkit-animation: aparicion 5s linear;
+          animation: aparicion 5s linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 72s;
+          animation-delay: 72s;
+}
+
+.parrafo:nth-child(20) .parrafo__content {
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+}
+
+.p img {
+  z-index: 1;
+  visibility: hidden;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-animation: aparicion 5s linear;
+          animation: aparicion 5s linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 72s;
+          animation-delay: 72s;
+}
+
 main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -147,12 +525,91 @@ main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 350vh;
+  overflow: hidden;
+  height: 100vh;
   width: 100vw;
+  background-image: url("https://media3.giphy.com/media/26tPs9BvmhEP3pZHq/giphy.gif?cid=7028f486arfwot6bbw7gqgvqfb5uaj9bh0fmcq160d9i7o5c&rid=giphy.gif&ct=g"), url("https://media3.giphy.com/media/KJGBfqmGVPsys/giphy.gif?cid=7028f486arfwot6bbw7gqgvqfb5uaj9bh0fmcq160d9i7o5c&rid=giphy.gif&ct=g"), url("https://media3.giphy.com/media/aAGI2KxxkG2AM/giphy.gif?cid=7028f486arfwot6bbw7gqgvqfb5uaj9bh0fmcq160d9i7o5c&rid=giphy.gif&ct=g"), url("https://media3.giphy.com/media/emGuZV7zIcEcU/giphy.gif?cid=7028f486arfwot6bbw7gqgvqfb5uaj9bh0fmcq160d9i7o5c&rid=giphy.gif&ct=g"), url("https://media3.giphy.com/media/WBAeLSp7gwZb2/giphy.gif?cid=7028f486arfwot6bbw7gqgvqfb5uaj9bh0fmcq160d9i7o5c&rid=giphy.gif&ct=g"), url("https://media3.giphy.com/media/nuJaAg1hdI89y/giphy.gif?cid=7028f486arfwot6bbw7gqgvqfb5uaj9bh0fmcq160d9i7o5c&rid=giphy.gif&ct=g"), url("https://media3.giphy.com/media/umBCKOohjIpNe/giphy.gif?cid=7028f486arfwot6bbw7gqgvqfb5uaj9bh0fmcq160d9i7o5c&rid=giphy.gif&ct=g"), url("https://media3.giphy.com/media/PK5CQPd6rCF3y/giphy.gif?cid=7028f486arfwot6bbw7gqgvqfb5uaj9bh0fmcq160d9i7o5c&rid=giphy.gif&ct=g"), url("https://media3.giphy.com/media/xm5xWCAZlbCRW/giphy.gif?cid=7028f486arfwot6bbw7gqgvqfb5uaj9bh0fmcq160d9i7o5c&rid=giphy.gif&ct=g");
+  background-blend-mode: soft-light;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center, 100vw center, 200vw center, 300vw center, 400vw center, 500vw center, 600vw center, 700vw center, 800vw center;
+  will-change: background-position;
+  -webkit-animation-name: bgmove;
+          animation-name: bgmove;
+  -webkit-animation-timing-function: steps(1, start);
+          animation-timing-function: steps(1, start);
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-duration: 72s;
+          animation-duration: 72s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes bgmove {
+  11% {
+    background-position: center, 100vw center, 200vw center, 300vw center, 400vw center, 500vw center, 600vw center, 700vw center, 800vw center;
+  }
+  22% {
+    background-position: -100vw center, center, 100vw center, 200vw center, 300vw center, 400vw center, 500vw center, 600vw center, 700vw center;
+  }
+  33% {
+    background-position: -200vw center, -100vw center, center, 100vw center, 200vw center, 300vw center, 400vw center, 500vw center, 600vw center;
+  }
+  44% {
+    background-position: -300vw center, -200vw center, -100vw center, center, 100vw center, 200vw center, 300vw center, 400vw center, 500vw center;
+  }
+  55% {
+    background-position: -400vw center, -300vw center, -200vw center, -100vw center, center, 100vw center, 200vw center, 300vw center, 400vw center;
+  }
+  66% {
+    background-position: -500vw center, -400vw center, -300vw center, -200vw center, -100vw center, center, 100vw center, 200vw center, 300vw center;
+  }
+  77% {
+    background-position: -600vw center, -500vw center, -400vw center, -300vw center, -200vw center, -100vw center, center, 100vw center, 200vw center;
+  }
+  88% {
+    background-position: -700vw center, -600vw center, -500vw center, -400vw center, -300vw center, -200vw center, -100vw center, center, 100vw center;
+  }
+  100% {
+    background-position: -800vw center, -700vw center, -600vw center, -500vw center, -400vw center, -300vw center, -200vw center, -100vw center, center;
+  }
+}
+
+@keyframes bgmove {
+  11% {
+    background-position: center, 100vw center, 200vw center, 300vw center, 400vw center, 500vw center, 600vw center, 700vw center, 800vw center;
+  }
+  22% {
+    background-position: -100vw center, center, 100vw center, 200vw center, 300vw center, 400vw center, 500vw center, 600vw center, 700vw center;
+  }
+  33% {
+    background-position: -200vw center, -100vw center, center, 100vw center, 200vw center, 300vw center, 400vw center, 500vw center, 600vw center;
+  }
+  44% {
+    background-position: -300vw center, -200vw center, -100vw center, center, 100vw center, 200vw center, 300vw center, 400vw center, 500vw center;
+  }
+  55% {
+    background-position: -400vw center, -300vw center, -200vw center, -100vw center, center, 100vw center, 200vw center, 300vw center, 400vw center;
+  }
+  66% {
+    background-position: -500vw center, -400vw center, -300vw center, -200vw center, -100vw center, center, 100vw center, 200vw center, 300vw center;
+  }
+  77% {
+    background-position: -600vw center, -500vw center, -400vw center, -300vw center, -200vw center, -100vw center, center, 100vw center, 200vw center;
+  }
+  88% {
+    background-position: -700vw center, -600vw center, -500vw center, -400vw center, -300vw center, -200vw center, -100vw center, center, 100vw center;
+  }
+  100% {
+    background-position: -800vw center, -700vw center, -600vw center, -500vw center, -400vw center, -300vw center, -200vw center, -100vw center, center;
+  }
 }
 
 .audioplayer {
   position: fixed;
   bottom: 0;
+  right: 0;
+  opacity: 0.3;
 }
 /*# sourceMappingURL=index.css.map */
