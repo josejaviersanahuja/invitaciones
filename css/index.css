@@ -589,4 +589,16 @@ Inicializacion
     right: 0;
     opacity: 0.5;
   }
+
+  /*full screen*/
+  .fullscreen {
+        cursor: pointer;
+        position: fixed;
+        top:0.5rem;
+        left: 0.5rem;
+  }
+
+  #close {
+          display: none;
+  }
   /*# sourceMappingURL=index.css.map */

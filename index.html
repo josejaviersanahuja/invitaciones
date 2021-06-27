@@ -1,110 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="animacion con html y css puro para invitar a alguien" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="animacion con html y css puro para invitar a alguien"
+    />
     <meta name="keywords" content="html5 y css3 puro" />
-    <link rel="icon" type="image/png" sizes="64x64" href="public/favicon64x64.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="64x64"
+      href="public/favicon64x64.png"
+    />
     <link rel="shortcut icon" href="public/favicon.ico" />
-    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
     <title>Invitacion</title>
-</head>
-<body>
+  </head>
+  <body>
     <main>
-        <div class="movil">
-            <div class="pantalla"></div>
-        </div>
-        <div class="p">
-            <p class="parrafo ">
-              <span class="parrafo__content">Ven y disfruta con nosotros</span>
-            </p>
-            <p class="parrafo ">
-              <span class="parrafo__content">
-                de una sorpresa para José Manuel
-              </span>
-            </p>
-            <p class="parrafo ">
-              <span class="parrafo__content"> ¡¡¡Anímate ABRIL !!! </span>
-            </p>
-            <p class="parrafo ">
-              <span class="parrafo__content"> y lo sorprendemos juntos</span>
-            </p>
-            <p class="parrafo ">
-              <span class="parrafo__content">Rugiremos muy fuerte...</span>
-            </p>
-            <p class="parrafo ">
-              <span class="parrafo__content">SORPRESAAAAAA</span>
-            </p>
-            <p class="parrafo ">
-              <span class="parrafo__content">Habrá piscina!!! Y es honda </span>
-            </p>
-            <p class="parrafo ">
-              <span class="parrafo__content">Así que lleva manguitos</span>
-            </p>
-            <p class="parrafo ">
-              <span class="parrafo__content">
-                Podremos jugar todo el día <br/> en la piscina
-              </span>
-            </p>
-            <p class="parrafo ">
-              <span class="parrafo__content"> Va a ser divertido</span>
-            </p>
-            <p class="parrafo ">
-              <span class="parrafo__content">Va a haber música</span>
-            </p>
-            <p class="parrafo ">
-              <span class="parrafo__content"> ¡¡¡Bailaremos!!!</span>
-            </p>
-            <p class="parrafo ">
-              <span class="parrafo__content">Disfrutaremos en familia</span>
-            </p>
-            <p class="parrafo ">
-              <span class="parrafo__content">La pasaremos bien rico</span>
-            </p>
-            <p class="parrafo ">
-              <span class="parrafo__content">
-                Así que pide permiso a tus papis para ir
-              </span>
-            </p>
-            <p class="parrafo ">
-              <span class="parrafo__content">
-                Usa la palabra mágica: porfiiiiiiiii...
-              </span>
-            </p>
-            <p class="parrafo ">
-              <span class="parrafo__content">
-                Que sean una verdadera <br />
-                Guardia del León
-              </span>
-            </p>
-            <p class="parrafo ">
-              <span class="parrafo__content">
-                El 5 de Julio <br />A mediodía.
-              </span>
-            </p>
-            <p class="parrafo ">
-              <span class="parrafo__content">
-                En Charco del Pino
-                <br /> Calle Charcay <br /> 
-                Asociación Virgen del Pino
-              </span>
-            </p>
-            <p class="parrafo ">
-              <span class="parrafo__content">
-                Al mirar al parque...
-                <br /> Unos globos te  indicarán el camino
-              </span>
-            </p>
-            <img src="public/jm.jpg" alt="jm" width="270" height="270" />  
-          </div>
+      <div class="fullscreen" id="open" onclick="openFullscreen()">
+        <svg
+          height="21"
+          viewBox="0 0 21 21"
+          width="21"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            fill="none"
+            fill-rule="evenodd"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            transform="translate(2 2)"
+          >
+            <path d="m16.5 5.5v-4.978l-5.5.014" />
+            <path d="m16.5.522-6 5.907" />
+            <path d="m11 16.521 5.5.002-.013-5.5" />
+            <path d="m16.5 16.429-6-5.907" />
+            <path d="m.5 5.5v-5h5.5" />
+            <path d="m6.5 6.429-6-5.907" />
+            <path d="m6 16.516-5.5.007v-5.023" />
+            <path d="m6.5 10.5-6 6" />
+          </g>
+        </svg>
+      </div>
+      <div class="fullscreen" id="close" onclick="closeFullscreen()">
+        <svg
+          height="21"
+          viewBox="0 0 21 21"
+          width="21"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            fill="none"
+            fill-rule="evenodd"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            transform="translate(3 3)"
+          >
+            <path d="m14.5 4.5v-4h-4" />
+            <path d="m6.5 4.5v4h4" />
+            <path
+              d="m10.5-1.157v11.314"
+              transform="matrix(.70710678 .70710678 -.70710678 .70710678 6.257359 -6.106602)"
+            />
+            <path
+              d="m8.5.5h-6c-1.1045695 0-2 .8954305-2 2v10c0 1.1045695.8954305 2 2 2h10c1.1045695 0 2-.8954305 2-2v-6"
+            />
+          </g>
+        </svg>
+      </div>
+      <div class="movil">
+        <div class="pantalla"></div>
+      </div>
+      <div class="p">
+        <p class="parrafo">
+          <span class="parrafo__content">Ven y disfruta con nosotros</span>
+        </p>
+        <p class="parrafo">
+          <span class="parrafo__content">
+            de una sorpresa para José Manuel
+          </span>
+        </p>
+        <p class="parrafo">
+          <span class="parrafo__content"> ¡¡¡Anímate ABRIL !!! </span>
+        </p>
+        <p class="parrafo">
+          <span class="parrafo__content"> y lo sorprendemos juntos</span>
+        </p>
+        <p class="parrafo">
+          <span class="parrafo__content">Rugiremos muy fuerte...</span>
+        </p>
+        <p class="parrafo">
+          <span class="parrafo__content">SORPRESAAAAAA</span>
+        </p>
+        <p class="parrafo">
+          <span class="parrafo__content">Habrá piscina!!! Y es honda </span>
+        </p>
+        <p class="parrafo">
+          <span class="parrafo__content">Así que lleva manguitos</span>
+        </p>
+        <p class="parrafo">
+          <span class="parrafo__content">
+            Podremos jugar todo el día <br />
+            en la piscina
+          </span>
+        </p>
+        <p class="parrafo">
+          <span class="parrafo__content"> Va a ser divertido</span>
+        </p>
+        <p class="parrafo">
+          <span class="parrafo__content">Va a haber música</span>
+        </p>
+        <p class="parrafo">
+          <span class="parrafo__content"> ¡¡¡Bailaremos!!!</span>
+        </p>
+        <p class="parrafo">
+          <span class="parrafo__content">Disfrutaremos en familia</span>
+        </p>
+        <p class="parrafo">
+          <span class="parrafo__content">La pasaremos bien rico</span>
+        </p>
+        <p class="parrafo">
+          <span class="parrafo__content">
+            Así que pide permiso a tus papis para ir
+          </span>
+        </p>
+        <p class="parrafo">
+          <span class="parrafo__content">
+            Usa la palabra mágica: porfiiiiiiiii...
+          </span>
+        </p>
+        <p class="parrafo">
+          <span class="parrafo__content">
+            Que sean una verdadera <br />
+            Guardia del León
+          </span>
+        </p>
+        <p class="parrafo">
+          <span class="parrafo__content">
+            El 5 de Julio <br />A mediodía.
+          </span>
+        </p>
+        <p class="parrafo">
+          <span class="parrafo__content">
+            En Charco del Pino
+            <br />
+            Calle Charcay <br />
+            Asociación Virgen del Pino
+          </span>
+        </p>
+        <p class="parrafo">
+          <span class="parrafo__content">
+            Al mirar al parque...
+            <br />
+            Unos globos te indicarán el camino
+          </span>
+        </p>
+        <img src="public/jm.jpg" alt="jm" width="270" height="270" />
+      </div>
     </main>
     <audio controls autoplay>
-      <source src="audio/song.mp3" type="audio/mpeg">
+      <source src="audio/song.mp3" type="audio/mpeg" />
       Your browser does not support the audio element.
     </audio>
-</body>
+    <script src="src/index.js"></script>
+  </body>
 </html>
 
 <!--<main>
