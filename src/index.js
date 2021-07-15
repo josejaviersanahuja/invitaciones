@@ -1,5 +1,5 @@
 var elem = document.documentElement;
-
+screen.orientation.lock('landscape')
 /* Abrir en fullscreen */
 function openFullscreen() {
   if (elem.requestFullscreen) {
